@@ -1,0 +1,11 @@
+{
+  "name": "oyasumi-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "kv_namespaces": [
+    { "binding": "STORIES", "id": "28b8f2915a794e6e9aa8bdc282b2b3d0" },
+    { "binding": "OAUTH_KV", "id": "fc6bb0845f3440d3a24a92ce7010e8bc" }
+  ]
+  // secrets: MCP_TOKEN（/internal-mcp の合言葉）, LOGIN_PASSPHRASE（OAuth 同意画面の合言葉）
+}

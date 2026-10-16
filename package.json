@@ -1,0 +1,25 @@
+{
+  "name": "oyasumi-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that remembers a child's days and tells a continuing bedtime story every night (Alexa+ / ChatGPT).",
+  "scripts": {
+    "check": "tsc -p . && vitest run",
+    "test": "vitest run",
+    "deploy": "wrangler deploy"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261002.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3",
+    "wrangler": "^4.147.0"
+  },
+  "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^1.2.2",
+    "@modelcontextprotocol/server": "^2.0.0",
+    "agents": "^0.25.0",
+    "zod": "^4.6.5"
+  },
+  "private": true
+}
